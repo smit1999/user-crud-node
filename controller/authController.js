@@ -40,7 +40,7 @@ exports.login = async (req,res,next)=>{
 
     const token = signtoken(user._id)
     return res.status(200).json({
-    message:'user logged-in',
+    message:'user logged-in successfully',
     'data':{
         'token':token,
         'email':email,
