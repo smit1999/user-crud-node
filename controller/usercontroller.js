@@ -87,7 +87,7 @@ exports.updateuser = async (req, res) =>{
     )
   
     return res.status(201).json({
-        message:'user update',
+        message:'user details updated',
         user : userdata
     });
 }
