@@ -49,7 +49,7 @@ exports.login = async (req,res,next)=>{
     }
    })
    }
-   return next(new AppError('Invalid email or password',400))
+   return next(new AppError('Invalid email or password, Please try again',400))
 
    
 }catch(err){
