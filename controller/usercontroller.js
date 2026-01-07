@@ -96,7 +96,7 @@ exports.deleteuser = async (req,res)=>{
     const user = await model.deleteMany({username:req.body.username})
 
     return res.status(200).json({
-        message:"users deleted",
+        message:"users deleted successfully",
         count:user.deletedCount
     })
 }
