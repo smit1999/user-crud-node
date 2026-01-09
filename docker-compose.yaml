@@ -16,7 +16,7 @@ services:
    
 
   user_crud:
-    image: 556152725678.dkr.ecr.us-east-1.amazonaws.com/usercrud:latest
+    image: user-crud:latest
 
     container_name: user_crud
 
